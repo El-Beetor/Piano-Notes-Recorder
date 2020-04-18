@@ -93,8 +93,8 @@ function HalfN(){
             }
             function removed(){
                 keysPressed[count-1]=null;
-                keysPressed[count-2]=null;
-              count= count-2;
+              //  keysPressed[count-2]=null;
+              count= count-1;
                 }
             
 function notes( color, numb, top){
