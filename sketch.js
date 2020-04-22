@@ -29,7 +29,7 @@ function draw(){
     background(51);
 Keys();
 Pressed();
-    if(count%2!==0){
+    if(count%2!=0){
     noteCount++;}
 text(noteCount+' notes', innerWidth/2.5, innerHeight/2-10);
 textSize(WB);
