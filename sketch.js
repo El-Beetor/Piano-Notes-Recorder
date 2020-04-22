@@ -29,8 +29,6 @@ function draw(){
     background(51);
 Keys();
 Pressed();
-     if(count%2!==0){
-        hello++;}
 text(hello +' notes', innerWidth/2.5, innerHeight/2-10);
 textSize(WB);
 if(count%20!==0){
@@ -185,7 +183,9 @@ notes(0, i, 0);
             if((mouseY>=lopes&&mouseY<=(lopes+LW))||(mouseY>=booty&&mouseY<=(booty+LW))){
             count++;
     }
-}}
+}
+if(count%2!==0){
+hello++;}}
 
 function white(){
     fill(100);
