@@ -19,7 +19,6 @@ var y='eightNote';
 var j;
 var h=10;
 var p=1;
- var noteCount=0;
 function setup(){
     createCanvas(innerWidth, innerHeight);
   
@@ -29,9 +28,7 @@ function draw(){
     background(51);
 Keys();
 Pressed();
-    if(count%2!==0){
-    noteCount++;}
-text(noteCount+' notes', innerWidth/2.5, innerHeight/2-10);
+text(count+' notes', innerWidth/2.5, innerHeight/2-10);
 textSize(WB);
 if(count%20!==0){
 fill(255);
