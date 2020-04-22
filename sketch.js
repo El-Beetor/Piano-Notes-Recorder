@@ -19,6 +19,7 @@ var y='eightNote';
 var j;
 var h=10;
 var p=1;
+
 function setup(){
     createCanvas(innerWidth, innerHeight);
   
